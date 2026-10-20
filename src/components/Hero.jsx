@@ -6,10 +6,10 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         <div>
           <p className="text-accent-500 font-semibold text-sm tracking-widest uppercase mb-4">
-            Ingénieur Logiciel
+            <p>&lt;elga &amp; code/&gt;</p>
           </p>
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
-            Algassimou Sow — Développeur web passionné par les systèmes d'information fiables
+            Algassimou Sow — Ingénieur Logiciel passionné par le développement web et des systèmes d'information fiables
           </h1>
           <p className="text-gray-300 text-lg mb-8 max-w-xl">
             Licence en Génie Logiciel (mention Très Bien, major de promotion), je conçois des

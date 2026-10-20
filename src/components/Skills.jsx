@@ -15,7 +15,7 @@ import {
 } from 'react-icons/si'
 import { FaJava } from 'react-icons/fa6'
 import { VscServerProcess } from 'react-icons/vsc'
-import { Workflow, Database, RefreshCw, Code2 } from 'lucide-react'
+import { Workflow, Database, RefreshCw, Code2, GraduationCap } from 'lucide-react'
 
 const skillGroups = [
   {
@@ -55,6 +55,10 @@ const skillGroups = [
   },
 ]
 
+const learning = [
+  "Workflows agentiques avec Claude Code",
+]
+
 export default function Skills() {
   return (
     <section id="competences" className="py-20 bg-gray-50">
@@ -83,6 +87,23 @@ export default function Skills() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-10 pt-10 border-t border-gray-200">
+          <div className="flex items-center gap-2 mb-4">
+            <GraduationCap className="text-accent-600" size={20} />
+            <h4 className="font-bold text-navy-900">En apprentissage</h4>
+          </div>
+          <div className="flex flex-wrap gap-3">
+            {learning.map((item) => (
+              <span
+                key={item}
+                className="text-sm text-gray-700 bg-accent-50 border border-accent-200 rounded-lg px-4 py-3"
+              >
+                {item}
+              </span>
+            ))}
+          </div>
         </div>
       </div>
     </section>

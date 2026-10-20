@@ -1,17 +1,19 @@
 import { FaGithub } from 'react-icons/fa6'
+import { MdYard } from 'react-icons/md';
 
 
 const projects = [
   {
     title: "Gestion et suivi de chantiers",
     description:
-      "Application web de gestion des chantiers de construction permettant de centraliser les opérations quotidiennes, de suivre les travaux, les approvisionnements et le pointage des ouvriers.",
+      "Application web de gestion des chantiers de construction permettant de centraliser les opérations quotidiennes, de suivre les travaux, les approvisionnements et le pointage des ouvriers : Cas de Dima Groupe .",
 
     features: [
       "Gestion des utilisateurs et des rôles",
       "Gestion et suivi des travaux",
       "Gestion des approvisionnements et des réceptions",
       "Suivi du pointage des ouvriers",
+      "Suivi des dépenses et des coûts",
     ],
 
     stack: [
@@ -35,6 +37,7 @@ const projects = [
     features: [
       "Gestion des inscriptions et des dossiers étudiants",
       "Enregistrement et suivi des paiements mensuels",
+      "Gestion des années scolaires et des classes",
     ],
 
     stack: [
@@ -42,6 +45,7 @@ const projects = [
       "Blade",
       "Alpine.js",
       "Tailwind CSS",
+      "MySQL",
     ],
 
     repoUrl: "https://github.com/sowELGA",
@@ -125,6 +129,28 @@ const projects = [
 
     repoUrl: "https://github.com/sowELGA/ToDo_APP",
   },
+  
+  {
+    title: "Portfolio personnel",
+    description:
+      "Portfolio développeur présentant mon parcours, mes compétences techniques et mes réalisations à travers une interface web moderne et responsive.",
+
+    features: [
+      "Présentation du profil et du parcours professionnel",
+      "Mise en valeur des projets réalisés",
+      "Présentation des compétences techniques",
+      "Interface responsive adaptée aux différents écrans",
+    ],
+
+    stack: [
+      "React.js",
+      "Tailwind CSS",
+      
+    ],
+
+    repoUrl: "https://github.com/sowELGA/mon-portfolio",
+  },
+
 ];
 
 export default function Projects() {
