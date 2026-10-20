@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         <div>
           <p className="text-accent-500 font-semibold text-sm tracking-widest uppercase mb-4">
-            <p>&lt;elga &amp; code/&gt;</p>
+            {'<elga & code/>'}
           </p>
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
             Algassimou Sow — Ingénieur Logiciel passionné par le développement web et des systèmes d'information fiables
@@ -56,3 +56,5 @@ export default function Hero() {
     </section>
   )
 }
+
+voila recris tout
