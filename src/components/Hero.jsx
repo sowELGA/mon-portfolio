@@ -5,29 +5,16 @@ export default function Hero() {
     <section id="accueil" className="pt-32 pb-20 bg-navy-950 text-white">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         <div>
-          {/* Bloc visible uniquement sur mobile : photo + nom côte à côte */}
-          <div className="flex md:hidden items-center gap-4 mb-6">
-            <img
-              src="/profile.jpg"
-              alt="Algassimou Sow"
-              className="w-16 h-16 rounded-full object-cover border-2 border-orange-400"
-            />
-            <span className="font-bold text-xl">Algassimou Sow</span>
-          </div>
-
           <p className="text-accent-500 font-semibold text-sm tracking-widest uppercase mb-4">
             {'<elga & code/>'}
           </p>
-
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
             Algassimou Sow — Ingénieur Logiciel passionné par le développement web et des systèmes d'information fiables
           </h1>
-
           <p className="text-gray-300 text-lg mb-8 max-w-xl">
             Licence en Génie Logiciel (mention Très Bien, major de promotion), je conçois des
             applications web complètes, du back-end à l'interface utilisateur.
           </p>
-
           <div className="flex flex-wrap gap-4">
             <a
               href="#projets"
@@ -69,3 +56,5 @@ export default function Hero() {
     </section>
   )
 }
+
+voila recris tout
