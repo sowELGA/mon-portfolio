@@ -1,5 +1,10 @@
 const formations = [
   {
+    period: '2022',
+    title: 'Baccalauréat Scientifique (S2)',
+    place: 'Obtenu en 2022',
+  },
+  {
     period: '2023 — 2026',
     title: 'Licence en Génie Logiciel',
     place: 'Université Dakar Bourguiba — Mention Très Bien, major de promotion',
