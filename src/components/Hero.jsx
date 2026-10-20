@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         <div>
           <p className="text-accent-500 font-semibold text-sm tracking-widest uppercase mb-4">
-            Stage — Ingénieur Logiciel
+            Ingénieur Logiciel
           </p>
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
             Algassimou Sow — Développeur web passionné par les systèmes d'information fiables
@@ -33,7 +33,7 @@ export default function Hero() {
         </div>
 
         <div className="hidden md:flex justify-center">
-          <div className="relative w-80 h-80">
+          <div className="relative w-96 h-96 md:w-[28rem] md:h-[28rem]">
             {/* Contour orange en arrière-plan, légèrement décalé */}
             <div
               className="absolute inset-0 bg-orange-400"
